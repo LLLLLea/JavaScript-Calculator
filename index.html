@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='container'>
+  <div id='calculator'>
+
+    <!-- TITLE -->
+
+    <div id='title' class='text-center'>
+      <h5><b>ELECTRONIC CALCULATOR</b></h5>
+    </div>
+
+    <!-- ENTRY BOX -->
+
+    <div id='entrybox' class='text-right'>
+      <div id='entry'>
+        <p id='display' style="overflow:hidden">0</p>
+      </div>
+      <!--<div id='history'>
+        <p>0</p>
+      </div>-->
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div id='buttons'>
+
+      <button class='red' id='ac'>AC</button>
+      <button class='red' id='ce'>CE</button>
+      <button value='/' class='operator'>&divide;</button>
+      <button value='*' class='operator'>x</button>
+
+      <button value='7' class='number'>7</button>
+      <button value='8' class='number'>8</button>
+      <button value='9' class='number'>9</button>
+      <button value='-' class='operator'>-</button>
+
+      <button value='4' class='number'>4</button>
+      <button value='5' class='number'>5</button>
+      <button value='6' class='number'>6</button>
+      <button value='+' class='operator'>+</button>
+
+
+      <button value='1' class='number'>1</button>
+      <button value='2' class='number'>2</button>
+      <button value='3' class='number'>3</button>
+      <button class='invisible operator' value='n'>N</button>
+
+      <button id='zeroButton' value='0' class='number'>0</button>
+      <button value='.' class='operator'>.</button>
+      <button id='equalButton' value='=' class='calc-function'>=</button>
+
+    </div>
+    <!-- end buttons -->
+    <div id='tester'></div>
+  </div>
+  <!-- end calculator -->
+</div>
+<!-- end container -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
